@@ -34,7 +34,7 @@ enum SelectGoWayEnum{
     CLOUDY("阴天",new Walk()),SUN("晴天",new Bike()),RAIN("雨天",new Car());
     private String weather;
     private Way way ;
-    private SelectGoWayEnum(String weather,Way way){
+    SelectGoWayEnum(String weather, Way way){
         this.weather = weather;
         this.way = way;
     }
