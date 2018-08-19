@@ -1,6 +1,9 @@
 # 设计模式 
 - 策略模式
 
+学习案例、学习内容：类图、用例类、设计图参见
+- https://github.com/chentian114/100-dayaction/tree/master/designpattern-1/images
+
 ## 策略模式(Strategy)
 
 练习案例：
