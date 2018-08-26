@@ -3,7 +3,8 @@ package com.chen.dayaction.designpattern.observer2;
 import com.chen.dayaction.designpattern.observer2.weather.*;
 
 /**
- * 气象布告板案例
+ * 气象布告板案例(实现观察者模式):
+ * WeatherData对象获取气象站数据,当数据有更新时,需要实时更新三个气象板的数据(当前情况、气象统计、天气预报）
  */
 public class WeatherDemo {
     public static void main(String[] args) {
