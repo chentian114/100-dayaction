@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Magazine implements Subject {
-    private Set<Observer> observers = new HashSet<>();
+
 
     private String name ;
     private double cost ;
