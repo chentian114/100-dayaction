@@ -5,7 +5,7 @@ import com.chen.dayaction.designpattern.factory4.exportfile.*;
 /**
  * Created by ChenTian on 2018/9/11.
  * 导出报表文件案例：
- *  系统需要支持对数据库中的员工薪资进行导出，
+ *  系统需要支持对数据库中的数据进行导出，
  *  1）并且支持多种导出格式，如：HTML、PDF等，
  *  2）每种格式导出的结构有所不同，如标准报表、财务报表等。
  *
