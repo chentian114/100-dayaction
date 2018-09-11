@@ -3,7 +3,8 @@ package com.chen.dayaction.designpattern.factory4;
 import com.chen.dayaction.designpattern.factory4.abstractfactpizza.*;
 
 /**
- * 披萨原料工厂：披萨原料有：面团、酱料、奶酪等。
+ * 披萨原料工厂：
+ * 披萨原料有：面团、酱料、奶酪等。
  * 不同地区风味的披萨原料是不同的，纽约风味的披萨使用的原料是：薄饼面团、加番茄酱、雷奇亚干酪奶酪等。
  * 芝加哥风味的披萨使用的原料是：厚饼面团、李子番茄酱、马苏里拉奶酪等
  *
