@@ -5,6 +5,7 @@ import com.chen.dayaction.designpattern.singleton5.classic.ClassicSingleton;
 /**
  * 经典的单例模式案例：
  * 在多线程环境下会出错
+ *
  */
 public class ClassicSingletonDemo {
     public static int MAX_SIZE = 1000000;
