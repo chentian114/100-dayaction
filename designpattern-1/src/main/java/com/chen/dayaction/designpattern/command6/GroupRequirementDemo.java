@@ -16,6 +16,19 @@ import com.chen.dayaction.designpattern.command6.group.Invoker;
  * 删除一个页面的需求就是一个删除页面的命令。命令里持有处理该任务的组目组成员的引用，
  * 并有一个统一的execute()方法调用具体项目组成员处理该需求。
  *
+ * 要点总结：
+ * 命令模式：将一个请求封装成一个对象，从而让你使用不同的请求把客户端参数化，对请求排队或者记录请求日志，可以提供命令的撤销和恢复功能。
+ *  Receive接收者角色，处理命令
+ *  Command命令角色，需要执行的请求
+ *  Invoker调用者角色，接收命令，并执行命令
+ * 优点：
+ *  1）类间解耦，调用者角色与接收者角色之间没有任何依赖关系。
+ *  2）可扩展性，Command子类可以非常容易扩展，调用者Invoker和高层次的Client不产一严重的代码耦合。
+ * 缺点：
+ *  1）类数量随命令数量增长而增长。可能造成类数量过多。
+ * 实践：
+ *  在实际Receiver一般采用封闭的方式，减少Client对Receiver的依赖。如案例中的各Group组。
+ *
  */
 public class GroupRequirementDemo {
     public static void main(String[] args) {
