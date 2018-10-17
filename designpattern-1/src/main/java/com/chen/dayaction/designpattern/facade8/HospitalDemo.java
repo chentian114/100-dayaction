@@ -1,5 +1,7 @@
 package com.chen.dayaction.designpattern.facade8;
 
+import com.chen.dayaction.designpattern.facade8.hospital.HospitalFacade;
+
 /**
  * Created by ChenTian on 2018/10/17.
  * 医院案例：
@@ -16,4 +18,10 @@ package com.chen.dayaction.designpattern.facade8;
  *
  */
 public class HospitalDemo {
+    public static void main(String[] args) {
+        HospitalFacade hospitalFacade = new HospitalFacade();
+        hospitalFacade.seeDocket();
+        System.out.println("----------------------");
+        hospitalFacade.takeMedicine();
+    }
 }
